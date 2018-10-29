@@ -16,6 +16,10 @@ import Home from "./components/Home.js"
 import Products from "./components/Products.js"
 import IndividualProduct from "./components/IndividualProduct.js"
 import Workouts from "./components/workouts"
+import Sessions from "./components/Sessions"
+import Login from "./components/Login"
+import Signup from './components/Signup';
+import Admin from './components/Admin'
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
@@ -33,6 +37,10 @@ ReactDOM.render(
                 <Route exact path="/products/category/:type" component={Products}/>
                 <Route exact path="/workouts" component={Workouts}/>
                 <Route exact path="/workouts/:body_part" component={Workouts}/>
+                <Route exact path="/sessions/:id" component={Sessions}/>
+                <Route exact path="/sessions" component={Login}/>
+                <Route exact path="/signup" component={Signup}/>
+                <Route exact path="/admin" component={Admin}/>
             </Switch>
         </div>
     </Router>

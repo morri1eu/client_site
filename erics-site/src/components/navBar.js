@@ -25,13 +25,13 @@ class Nav extends Component {
         <li className="dropdown">
           <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule A Session<span className="caret"></span></a>
           <ul className="dropdown-menu">
-            <li><a href="#">Individual</a></li>
-            <li><a href="#">Small Group 2-5</a></li>
-            <li><a href="#">Team 6+</a></li>
+            <li><a href="/sessions">Individual</a></li>
+            <li><a href="/sessions">Small Group 2-5</a></li>
+            <li><a href="/sessions">Team 6+</a></li>
             <li role="separator" className="divider"></li>
-            <li><a href="#">Reschedule Workout</a></li>
+            <li><a href="/sessions">Reschedule Workout</a></li>
             <li role="separator" className="divider"></li>
-            <li><a href="#">Cancel Workout</a></li>
+            <li><a href="/sessions">Cancel Workout</a></li>
           </ul>
         </li>
       </ul>

@@ -55,10 +55,6 @@ class Footer extends Component {
                       <li>
                         <a href="/workouts/legs">Leg Day</a>
                       </li>
-                      <li>
-                        <a href="/workouts">Explosive Agility</a>
-                      </li>
-
                     </ul>
         
                   </div>
